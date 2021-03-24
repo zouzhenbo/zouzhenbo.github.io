@@ -1,4 +1,3 @@
-
 <table border="0">
   <tr>
     <td width="75%">
@@ -10,7 +9,7 @@
       <p><b>联系方式：15587957098<p><b>
     </td>
     <td width="25%">
-      <img src="/zzb.jpg" width="100%">      % 插入证件照代码
+      <img src="/zzb.jpg" width="100%"> 
     </td>
   </tr>
 </table>
