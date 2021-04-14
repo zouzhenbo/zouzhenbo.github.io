@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+   <script>
+   	var res=window.prompt("请输入成绩");
+   	if(res==''){
+
+   		document.write("请输入你的成绩");
+   	}
+
+   	else if(res<60){
+   		document.write("不及格");
+   	}
+   	else if(res>=60&&res<75){
+   		document.write("及格");
+   	}
+   	else if(res>=75&&res<90){
+      document.write("良好");
+
+   	}
+   	else if(res>90&&res<=100){
+   		document.write("优异");
+   	}
+   	else{
+   		document.write("请输入100以内的数");
+   	}
+   </script>  
+</body>
+</html>
