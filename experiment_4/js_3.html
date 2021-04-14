@@ -13,8 +13,8 @@
 	function showByIndex(dir){
 		var imageShow = document.getElementById("imageShow");
 		var images = imageShow.getElementsByTagName("div");
-		if(dir==0){	//dir为0，显示当前图片前面的图片，否则显示当前图片后面的图片
-			showNo=showNo+images.length-1;	//因为负数取余的逻辑是绝对值取余之后再取相反数。比如5%3=2；-5%3=-2，而实际上应该为1
+		if(dir==0){	
+			showNo=showNo+images.length-1;
 		}else{
 			showNo=showNo+1;
 		}
@@ -34,9 +34,9 @@
 		<div id="leftDiv" class="switchStyle" onclick="showByIndex(0)">《</div>
 		<div id="showDiv" style="float: left;">
 			<div id="imageShow">
-				<div class="imageStyle" style="background-image: url('xiaogou1.jpg');display: block;"></div>
-				<div class="imageStyle" style="background-image: url('xiaogou2.jpg');display: none;"></div>
-				<div class="imageStyle" style="background-image: url('xiaogou3.jpg');display: none;"></div>
+				<div class="imageStyle" style="background-image: url('yunceng.jpg');display: block;"></div>
+				<div class="imageStyle" style="background-image: url('shanshuihua.jpg');display: none;"></div>
+				<div class="imageStyle" style="background-image: url('yunceng.jpg');display: none;"></div>
 			</div>
 		</div>
 		<div id="rightDiv" class="switchStyle" onclick="showByIndex(1)">》</div>
