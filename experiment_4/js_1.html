@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>输入您的体重然后点击这个按钮：</p>
+
+<input id="age" value="100" />
+
+<button onclick="myFunction()">试一试</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var age, voteable;
+  age = document.getElementById("age").value;
+ 
+	if(age>=60&&age<75){
+        voteable = "及格";
+   	}
+   	else if(age<60){
+   		voteable = "不及格";
+   	}
+	else if(age>=75&&age<85){
+   		voteable = "良好";
+   	}
+		else if(age>=85&&age<100){
+   		voteable = "良好";
+   	}
+  document.getElementById("demo").innerHTML = voteable;
+}
+</script>
+
+</body>
+</html>
